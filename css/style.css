@@ -18,6 +18,9 @@
 .text-primary-dark {
   color: #385138;
 }
+.hero-banner {
+  background-image: url("../img/lahan.png");
+}
 
 .pengaduan {
   background-image: url("../img/bg-pengaduan.png");
