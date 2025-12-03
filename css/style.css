@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+/* Warna utama gelap yang mirip dengan footer/header gambar */
+.bg-primary-dark {
+  background-color: #385138;
+}
+/* Warna utama terang yang mirip dengan bagian atas (latar hijau muda) */
+.bg-primary-light {
+  background-color: #e6f1e6;
+}
+/* Warna teks untuk kontras */
+.text-primary-dark {
+  color: #385138;
+}
+
+.pengaduan {
+  background-image: url("../img/bg-pengaduan.png");
+}
+@media (prefers-color-scheme: dark) {
+  .dark\:bg-gray-800 {
+    background-color: #ffffff !important;
+  }
+}

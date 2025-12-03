@@ -1,0 +1,1671 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dinas Pertanian Kab. Grobogan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="img/logo_grobogan.png" />
+    <!-- link css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="font-sans antialiased text-gray-800">
+    <!-- Header -->
+    <header
+      id="main-header"
+      class="fixed w-full z-40 bg-transparent text-white transition-colors duration-300"
+    >
+      <nav class="px-4 sm:px-6 lg:px-8 py-1">
+        <div class="flex flex-wrap items-center justify-between mx-auto h-16">
+          <a href="#" class="flex items-center space-x-2">
+            <img
+              src="img/logo_grobogan.png"
+              class="w-8 h-full"
+              alt="Logo Dinas Pertanian Grobogan"
+            />
+            <div class="text-white -space-y-1">
+              <p class="text-sm font-semibold">Dinas Pertanian</p>
+              <p class="text-sm font-semibold">Kabupaten Grobogan</p>
+            </div>
+          </a>
+
+          <button
+            type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-base lg:hidden focus:outline-none focus:ring-2 focus:ring-gray-400"
+            aria-controls="navbar-default"
+            aria-expanded="false"
+            id="mobile-menu-button"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-6 h-6"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-width="2"
+                d="M5 7h14M5 12h14M5 17h14"
+              />
+            </svg>
+          </button>
+
+          <div class="hidden w-full lg:block lg:w-auto" id="navbar-default">
+            <div class="ml-10 flex items-center space-x-1 hidden lg:flex">
+              <a
+                href="#"
+                class="text-[#9BA39D] hover:bg-white hover:text-black px-3 py-2 text-sm font-medium transition-colors duration-200"
+                >Beranda</a
+              >
+
+              <div class="relative group">
+                <button
+                  class="text-[#9BA39D] hover:bg-white hover:text-black px-3 py-2 text-sm font-medium flex items-center transition-colors duration-200"
+                >
+                  Profil
+                  <svg
+                    class="ml-1 w-4 h-4 transition-transform duration-200 group-hover:rotate-180"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    ></path>
+                  </svg>
+                </button>
+                <div
+                  class="absolute left-0 mt-0 w-60 bg-white text-black shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform scale-y-0 group-hover:scale-y-100 origin-top z-50"
+                >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >Sejarah dan Dasar Hukum</a
+                  >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >Visi Misi</a
+                  >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >Struktur Organisasi</a
+                  >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >Tugas & Fungsi</a
+                  >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >Maklumat Pelayanan</a
+                  >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >Daftar Pejabat</a
+                  >
+                </div>
+              </div>
+
+              <div class="relative group">
+                <button
+                  class="text-[#9BA39D] hover:bg-white hover:text-black px-3 py-2 text-sm font-medium flex items-center transition-colors duration-200"
+                >
+                  Program
+                  <svg
+                    class="ml-1 w-4 h-4 transition-transform duration-200 group-hover:rotate-180"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    ></path>
+                  </svg>
+                </button>
+                <div
+                  class="absolute left-0 mt-0 w-60 bg-white text-black shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform scale-y-0 group-hover:scale-y-100 origin-top z-50"
+                >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >Rencana Kerja</a
+                  >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >Program & Sub Kegiatan</a
+                  >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >Target & Capaian</a
+                  >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >Inovasi Daerah</a
+                  >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >Kalender Kegiatan</a
+                  >
+                </div>
+              </div>
+
+              <div class="relative group">
+                <button
+                  class="text-[#9BA39D] hover:bg-white hover:text-black px-3 py-2 text-sm font-medium flex items-center transition-colors duration-200"
+                >
+                  Layanan Publik
+                  <svg
+                    class="ml-1 w-4 h-4 transition-transform duration-200 group-hover:rotate-180"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    ></path>
+                  </svg>
+                </button>
+                <div
+                  class="absolute left-0 mt-0 w-60 bg-white text-black shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform scale-y-0 group-hover:scale-y-100 origin-top z-50"
+                >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >SOP Pelayanan</a
+                  >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >Standar Pelayanan</a
+                  >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >Formulir Permohonan</a
+                  >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >Konsultasi Petani</a
+                  >
+                </div>
+              </div>
+
+              <div class="relative group">
+                <button
+                  class="text-[#9BA39D] hover:bg-white hover:text-black px-3 py-2 text-sm font-medium flex items-center transition-colors duration-200"
+                >
+                  Data dan Informasi
+                  <svg
+                    class="ml-1 w-4 h-4 transition-transform duration-200 group-hover:rotate-180"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    ></path>
+                  </svg>
+                </button>
+                <div
+                  class="absolute left-0 mt-0 w-60 bg-white text-black shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform scale-y-0 group-hover:scale-y-100 origin-top z-50"
+                >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >Informasi OPT & Perkiraan Iklim</a
+                  >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >Penyuluhan & Artikel Teknis</a
+                  >
+                </div>
+              </div>
+
+              <a
+                href="#"
+                class="text-[#9BA39D] hover:bg-white hover:text-black px-3 py-2 text-sm font-medium transition-colors duration-200"
+                >PPID</a
+              >
+
+              <div class="relative group">
+                <button
+                  class="text-[#9BA39D] hover:bg-white hover:text-black px-3 py-2 text-sm font-medium flex items-center transition-colors duration-200"
+                >
+                  Dokumen
+                  <svg
+                    class="ml-1 w-4 h-4 transition-transform duration-200 group-hover:rotate-180"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    ></path>
+                  </svg>
+                </button>
+                <div
+                  class="absolute left-0 mt-0 w-60 bg-white text-black shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform scale-y-0 group-hover:scale-y-100 origin-top z-50"
+                >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >Renstra Dinas</a
+                  >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >RKA/DPA</a
+                  >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >LKJIP</a
+                  >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >RTP/SPIP</a
+                  >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >Rencana Aksi OPD</a
+                  >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >SOP Bidang</a
+                  >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >Peraturan & Regulasi</a
+                  >
+                </div>
+              </div>
+
+              <div class="relative group">
+                <button
+                  class="text-[#9BA39D] hover:bg-white hover:text-black px-3 py-2 text-sm font-medium flex items-center transition-colors duration-200"
+                >
+                  Berita dan Publikasi
+                  <svg
+                    class="ml-1 w-4 h-4 transition-transform duration-200 group-hover:rotate-180"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    ></path>
+                  </svg>
+                </button>
+                <div
+                  class="absolute left-0 mt-0 w-60 bg-white text-black shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform scale-y-0 group-hover:scale-y-100 origin-top z-50"
+                >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >Berita</a
+                  >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >Artikel & Wawasan Pertanian</a
+                  >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >Galeri Foto</a
+                  >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >Video</a
+                  >
+                </div>
+              </div>
+
+              <div class="relative group">
+                <button
+                  class="text-[#9BA39D] hover:bg-white hover:text-black px-3 py-2 text-sm font-medium flex items-center transition-colors duration-200"
+                >
+                  Bidang/UPTD
+                  <svg
+                    class="ml-1 w-4 h-4 transition-transform duration-200 group-hover:rotate-180"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    ></path>
+                  </svg>
+                </button>
+                <div
+                  class="absolute left-0 mt-0 w-60 bg-white text-black shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform scale-y-0 group-hover:scale-y-100 origin-top z-50"
+                >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >Tanaman Pangan</a
+                  >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >Hortikultura</a
+                  >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >Perkebunan</a
+                  >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >PSP</a
+                  >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >UPTD Balai Benih</a
+                  >
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >UPTD Laboratorium</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div
+        id="mobile-menu"
+        class="lg:hidden hidden bg-[#374A37] shadow-lg border-t border-gray-700 pb-2"
+      >
+        <ul class="font-medium flex flex-col p-4">
+          <li>
+            <a
+              href="#"
+              class="block py-2 px-3 text-white rounded hover:bg-[#4a5f4a]"
+              >Beranda</a
+            >
+          </li>
+
+          <li class="mobile-dropdown-parent">
+            <button
+              type="button"
+              class="flex justify-between items-center w-full py-2 px-3 text-gray-200 rounded hover:bg-[#4a5f4a] mobile-dropdown-button"
+            >
+              Profil
+              <svg
+                class="ml-1 w-4 h-4 transform transition duration-300 mobile-dropdown-icon"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                ></path>
+              </svg>
+            </button>
+            <ul
+              class="ml-4 border-l border-gray-600 space-y-1 hidden mobile-dropdown-content"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >Sejarah dan Dasar Hukum</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >Visi Misi</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >Struktur Organisasi</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >Tugas & Fungsi</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >Maklumat Pelayanan</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >Daftar Pejabat</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li class="mobile-dropdown-parent">
+            <button
+              type="button"
+              class="flex justify-between items-center w-full py-2 px-3 text-gray-200 rounded hover:bg-[#4a5f4a] mobile-dropdown-button"
+            >
+              Program
+              <svg
+                class="ml-1 w-4 h-4 transform transition duration-300 mobile-dropdown-icon"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                ></path>
+              </svg>
+            </button>
+            <ul
+              class="ml-4 border-l border-gray-600 space-y-1 hidden mobile-dropdown-content"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >Rencana Kerja</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >Program & Sub Kegiatan</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >Target & Capaian</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >Inovasi Daerah</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >Kalender Kegiatan</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li class="mobile-dropdown-parent">
+            <button
+              type="button"
+              class="flex justify-between items-center w-full py-2 px-3 text-gray-200 rounded hover:bg-[#4a5f4a] mobile-dropdown-button"
+            >
+              Layanan Publik
+              <svg
+                class="ml-1 w-4 h-4 transform transition duration-300 mobile-dropdown-icon"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                ></path>
+              </svg>
+            </button>
+            <ul
+              class="ml-4 border-l border-gray-600 space-y-1 hidden mobile-dropdown-content"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >SOP Pelayanan</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >Standar Pelayanan</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >Formulir Permohonan</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >Konsultasi Petani</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li class="mobile-dropdown-parent">
+            <button
+              type="button"
+              class="flex justify-between items-center w-full py-2 px-3 text-gray-200 rounded hover:bg-[#4a5f4a] mobile-dropdown-button"
+            >
+              Data dan Informasi
+              <svg
+                class="ml-1 w-4 h-4 transform transition duration-300 mobile-dropdown-icon"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                ></path>
+              </svg>
+            </button>
+            <ul
+              class="ml-4 border-l border-gray-600 space-y-1 hidden mobile-dropdown-content"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >Informasi OPT & Perkiraan Iklim</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >Penyuluhan & Artikel Teknis</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a
+              href="#"
+              class="block py-2 px-3 text-gray-200 rounded hover:bg-[#4a5f4a]"
+              >PPID</a
+            >
+          </li>
+
+          <li class="mobile-dropdown-parent">
+            <button
+              type="button"
+              class="flex justify-between items-center w-full py-2 px-3 text-gray-200 rounded hover:bg-[#4a5f4a] mobile-dropdown-button"
+            >
+              Dokumen
+              <svg
+                class="ml-1 w-4 h-4 transform transition duration-300 mobile-dropdown-icon"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                ></path>
+              </svg>
+            </button>
+            <ul
+              class="ml-4 border-l border-gray-600 space-y-1 hidden mobile-dropdown-content"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >Renstra Dinas</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >RKA/DPA</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >LKJIP</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >RTP/SPIP</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >Rencana Aksi OPD</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >SOP Bidang</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >Peraturan & Regulasi</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li class="mobile-dropdown-parent">
+            <button
+              type="button"
+              class="flex justify-between items-center w-full py-2 px-3 text-gray-200 rounded hover:bg-[#4a5f4a] mobile-dropdown-button"
+            >
+              Berita dan Publikasi
+              <svg
+                class="ml-1 w-4 h-4 transform transition duration-300 mobile-dropdown-icon"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                ></path>
+              </svg>
+            </button>
+            <ul
+              class="ml-4 border-l border-gray-600 space-y-1 hidden mobile-dropdown-content"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >Berita</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >Artikel & Wawasan Pertanian</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >Galeri Foto</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >Video</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li class="mobile-dropdown-parent">
+            <button
+              type="button"
+              class="flex justify-between items-center w-full py-2 px-3 text-gray-200 rounded hover:bg-[#4a5f4a] mobile-dropdown-button"
+            >
+              Bidang/UPTD
+              <svg
+                class="ml-1 w-4 h-4 transform transition duration-300 mobile-dropdown-icon"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                ></path>
+              </svg>
+            </button>
+            <ul
+              class="ml-4 border-l border-gray-600 space-y-1 hidden mobile-dropdown-content"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >Tanaman Pangan</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >Hortikultura</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >Perkebunan</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >PSP</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >UPTD Balai Benih</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-sm text-gray-300 hover:bg-[#4a5f4a]"
+                  >UPTD Laboratorium</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="pt-0 md:pt-0">
+      <!-- CORAUSEL -->
+      <div
+        id="indicators-carousel"
+        class="relative w-full"
+        data-carousel="static"
+      >
+        <div class="relative h-96 overflow-hidden rounded-base md:h-[540px]">
+          <div
+            class="absolute inset-0 h-full w-full hidden duration-700 ease-in-out bg-center bg-cover"
+            style="background-image: url('img/lahan.png')"
+            data-carousel-item="active"
+          >
+            <div class="absolute inset-0 bg-black opacity-40"></div>
+
+            <div
+              class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center z-20 w-full px-4"
+            >
+              <h2 class="text-3xl sm:text-4xl font-bold md:text-5xl">
+                Menuju Indonesia Swasembada Pangan
+              </h2>
+              <p class="text-xs md:text-lg max-w-2xl mx-auto opacity-60">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="absolute inset-0 h-full w-full hidden duration-700 ease-in-out bg-center bg-cover"
+            style="background-image: url('img/tugu_simpang_lima.png')"
+            data-carousel-item
+          >
+            <div class="absolute inset-0 bg-black opacity-40"></div>
+
+            <div
+              class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center z-20 w-full px-4"
+            >
+              <h2 class="text-3xl sm:text-4xl font-bold md:text-5xl">
+                Menuju Indonesia Swasembada Pangan
+              </h2>
+              <p class="text-xs md:text-lg max-w-2xl mx-auto opacity-60">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="absolute inset-0 h-full w-full hidden duration-700 ease-in-out bg-center bg-cover"
+            style="background-image: url('img/lahan.png')"
+            data-carousel-item
+          >
+            <div class="absolute inset-0 bg-black opacity-40"></div>
+
+            <div
+              class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center z-20 w-full px-4"
+            >
+              <h2 class="text-3xl sm:text-4xl font-bold md:text-5xl">
+                Menuju Indonesia Swasembada Pangan
+              </h2>
+              <p class="text-xs md:text-lg max-w-2xl mx-auto opacity-60">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="absolute inset-0 h-full w-full hidden duration-700 ease-in-out bg-center bg-cover"
+            style="background-image: url('img/tugu_simpang_lima.png')"
+            data-carousel-item
+          >
+            <div class="absolute inset-0 bg-black opacity-40"></div>
+
+            <div
+              class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center z-20 w-full px-4"
+            >
+              <h2 class="text-3xl sm:text-4xl font-bold md:text-5xl">
+                Menuju Indonesia Swasembada Pangan
+              </h2>
+              <p class="text-xs md:text-lg max-w-2xl mx-auto opacity-60">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-5 left-1/2"
+        >
+          <button
+            type="button"
+            class="w-2 h-2 rounded-full text-white"
+            aria-current="true"
+            aria-label="Slide 1"
+            data-carousel-slide-to="0"
+          ></button>
+          <button
+            type="button"
+            class="w-2 h-2 rounded-full"
+            aria-current="false"
+            aria-label="Slide 2"
+            data-carousel-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            class="w-2 h-2 rounded-full"
+            aria-current="false"
+            aria-label="Slide 3"
+            data-carousel-slide-to="2"
+          ></button>
+          <button
+            type="button"
+            class="w-2 h-2 rounded-full"
+            aria-current="false"
+            aria-label="Slide 4"
+            data-carousel-slide-to="3"
+          ></button>
+        </div>
+
+        <button
+          type="button"
+          class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          data-carousel-prev
+        >
+          <span
+            class="inline-flex items-center justify-center w-10 h-10 rounded"
+          >
+            <svg
+              class="w-5 h-5 text-white rtl:rotate-180"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="m15 19-7-7 7-7"
+              />
+            </svg>
+            <span class="sr-only">Previous</span>
+          </span>
+        </button>
+        <button
+          type="button"
+          class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          data-carousel-next
+        >
+          <span
+            class="inline-flex items-center justify-center w-10 h-10 rounded"
+          >
+            <svg
+              class="w-5 h-5 text-white rtl:rotate-180"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="m9 5 7 7-7 7"
+              />
+            </svg>
+            <span class="sr-only">Next</span>
+          </span>
+        </button>
+      </div>
+      <!-- STATISTIK -->
+      <section class="bg-primary-light py-6 md:py-8">
+        <div class="px-4 sm:px-6 lg:px-8">
+          <div class="grid grid-cols-4 md:gap-4 gap-2 text-center">
+            <div>
+              <p class="md:text-6xl font-bold text-primary-dark">20+</p>
+              <p class="text-gray-600 mt-1 text-xs md:text-md">
+                Varietas Unggulan
+              </p>
+            </div>
+            <div>
+              <p class="md:text-6xl font-bold text-primary-dark">1.5M</p>
+              <p class="text-gray-600 mt-1 text-xs">Hektar Lahan</p>
+            </div>
+            <div>
+              <p class="md:text-6xl font-bold text-primary-dark">15K</p>
+              <p class="text-gray-600 mt-1 text-xs">Kelompok Tani</p>
+            </div>
+            <div>
+              <p class="md:text-6xl font-bold text-primary-dark">1.2M</p>
+              <p class="text-gray-600 mt-1 text-xs">Ton Hasil Panen</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- LAYANAN DINAS -->
+      <section class="py-12 md:py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2
+            class="text-center text-3xl md:text-4xl font-bold text-primary-dark mb-12"
+          >
+            Pelayanan Dinas
+          </h2>
+          <div class="grid grid-cols-1 md:grid-cols-4 mt-10 gap-6">
+            <a href="">
+              <div
+                class="group bg-white border border-gray-200 p-10 shadow-md hover:bg-[#374A37] hover:shadow-xl transition duration-300 flex flex-col items-center text-center"
+              >
+                <div
+                  class="w-16 h-16 bg-primary-light rounded-full flex items-center justify-center mb-3 border-4 border-green-600 transition duration-300 group-hover:bg-white group-hover:border-white"
+                >
+                  <svg
+                    class="w-8 h-8 text-green-700 transition duration-300 group-hover:text-[#374A37]"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 01.553-.894L9 2m0 18l6-3m-6 3V2m0 18h6m-6-3V2m0 0l6 3m-6-3h6m0 0l-5.447 2.724A1 1 0 0115 7.618V18.382a1 1 0 01-.553.894L9 20m0-18h6m-6 3V7m0 11V16m0 0l6 3m-6-3h6m-6 0V7m0 0V5.618a1 1 0 011.553-.894L15 7m0 0h6m-6-3V2m0 0h6m-6 0V2"
+                    ></path>
+                  </svg>
+                </div>
+
+                <p
+                  class="font-semibold text-primary-dark transition duration-300 group-hover:text-white"
+                >
+                  Lahan Pertanian
+                </p>
+
+                <p
+                  class="text-xs text-gray-500 mt-1 transition duration-300 group-hover:text-white"
+                >
+                  Informasi dan Pendaftaran Lahan
+                </p>
+              </div>
+            </a>
+            <a href="">
+              <div
+                class="group bg-white border border-gray-200 p-10 shadow-md hover:bg-[#374A37] hover:shadow-xl transition duration-300 flex flex-col items-center text-center"
+              >
+                <div
+                  class="w-16 h-16 bg-primary-light rounded-full flex items-center justify-center mb-3 border-4 border-green-600 transition duration-300 group-hover:bg-white group-hover:border-white"
+                >
+                  <svg
+                    class="w-8 h-8 text-green-700 transition duration-300 group-hover:text-[#374A37]"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M13 10V3L4 14h7v7l9-11h-7z"
+                    ></path>
+                  </svg>
+                </div>
+
+                <p
+                  class="font-semibold text-primary-dark transition duration-300 group-hover:text-white"
+                >
+                  Bibit Unggul
+                </p>
+
+                <p
+                  class="text-xs text-gray-500 mt-1 transition duration-300 group-hover:text-white"
+                >
+                  Permohonan Bantuan Bibit
+                </p>
+              </div>
+            </a>
+
+            <a href="">
+              <div
+                class="group bg-white border border-gray-200 p-10 shadow-md hover:bg-[#374A37] hover:shadow-xl transition duration-300 flex flex-col items-center text-center"
+              >
+                <div
+                  class="w-16 h-16 bg-primary-light rounded-full flex items-center justify-center mb-3 border-4 border-green-600 transition duration-300 group-hover:bg-white group-hover:border-white"
+                >
+                  <svg
+                    class="w-8 h-8 text-green-700 transition duration-300 group-hover:text-[#374A37]"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M7 11.5V14m0-2.5v-6a1.5 1.5 0 113 0v6m-3-6h8m-8 0a1.5 1.5 0 113 0m0 0h3m-3 0v4m-3-4v4m9-4v6a1.5 1.5 0 01-3 0v-6m-3-4h8m-8 0a1.5 1.5 0 113 0m0 0h3m-3 0v4m-3-4v4"
+                    ></path>
+                  </svg>
+                </div>
+
+                <p
+                  class="font-semibold text-primary-dark transition duration-300 group-hover:text-white"
+                >
+                  Sistem Irigasi
+                </p>
+
+                <p
+                  class="text-xs text-gray-500 mt-1 transition duration-300 group-hover:text-white"
+                >
+                  Pengajuan Bantuan Irigasi
+                </p>
+              </div>
+            </a>
+
+            <a href="">
+              <div
+                class="group bg-white border border-gray-200 p-10 shadow-md hover:bg-[#374A37] hover:shadow-xl transition duration-300 flex flex-col items-center text-center"
+              >
+                <div
+                  class="w-16 h-16 bg-primary-light rounded-full flex items-center justify-center mb-3 border-4 border-green-600 transition duration-300 group-hover:bg-white group-hover:border-white"
+                >
+                  <svg
+                    class="w-8 h-8 text-green-700 transition duration-300 group-hover:text-[#374A37]"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 19V6l12-3v14m-6 0h6m-6 0v4m-6-4h6m-6 0V6m0 0L3 6m6 0h6m-6 0H3m6 0v4m-3 0v4m-3-4v4"
+                    ></path>
+                  </svg>
+                </div>
+
+                <p
+                  class="font-semibold text-primary-dark transition duration-300 group-hover:text-white"
+                >
+                  Pelatihan Pertanian
+                </p>
+
+                <p
+                  class="text-xs text-gray-500 mt-1 transition duration-300 group-hover:text-white"
+                >
+                  Informasi dan Jadwal Pelatihan
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- GALERY -->
+      <section
+        class="relative py-20 bg-cover bg-center"
+        style="background-image: url('img/bg-galery.png')"
+      >
+        <div class="absolute inset-0 bg-gray-900 opacity-60"></div>
+
+        <div class="relative max-w-7xl mx-auto px-4 z-10">
+          <div class="text-center mb-12">
+            <h2 class="text-4xl text-white mb-2 font-bold">Galeri</h2>
+          </div>
+
+          <div class="grid grid-cols-2 md:grid-cols-3 gap-2 lg:gap-8 mb-12">
+            <div class="bg-white shadow-xl overflow-hidden relative group">
+              <img
+                src="img/rapat.png"
+                alt="Deskripsi Gambar Rapat 1"
+                class="w-full h-auto transform transition duration-500 group-hover:scale-105"
+              />
+              <div
+                class="absolute inset-x-0 bottom-0 bg-black bg-opacity-50 p-4 text-center"
+              >
+                <p class="text-white text-base">Lorem ipsum dolor sit amet</p>
+              </div>
+            </div>
+
+            <div class="bg-white shadow-xl overflow-hidden relative group">
+              <img
+                src="img/rapat.png"
+                alt="Deskripsi Gambar Rapat 2"
+                class="w-full h-auto transform transition duration-500 group-hover:scale-105"
+              />
+              <div
+                class="absolute inset-x-0 bottom-0 bg-black bg-opacity-50 p-4 text-center"
+              >
+                <p class="text-white text-base">Lorem ipsum dolor sit amet</p>
+              </div>
+            </div>
+
+            <div class="bg-white shadow-xl overflow-hidden relative group">
+              <img
+                src="img/rapat.png"
+                alt="Deskripsi Gambar Rapat 3"
+                class="w-full h-auto transform transition duration-500 group-hover:scale-105"
+              />
+              <div
+                class="absolute inset-x-0 bottom-0 bg-black bg-opacity-50 p-4 text-center"
+              >
+                <p class="text-white text-base">Lorem ipsum dolor sit amet</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center">
+            <a
+              href="#"
+              class="inline-block px-8 py-3 bg-transparent border border-white text-white text-base font-medium rounded-none hover:bg-white hover:text-gray-900 transition duration-300"
+            >
+              Lihat Semua →
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- BERITA -->
+      <section class="py-12 md:py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2
+            class="text-center text-3xl md:text-4xl font-bold text-primary-dark mb-12"
+          >
+            Berita
+          </h2>
+          <div class="grid grid-cols-1 gap-6 mt-2">
+            <div class="md:col-span-2">
+              <div class="space-y-2">
+                <a
+                  href="#"
+                  class="flex space-x-4 hover:shadow-lg border-b transition duration-300 p-4"
+                >
+                  <div class="w-1/4 overflow-hidden flex-shrink-0">
+                    <img
+                      src="https://picsum.photos/id/1015/600/400"
+                      alt="Peningkatan Produksi Pangan"
+                      class="w-full h-full object-cover transform hover:scale-105 transition duration-500"
+                    />
+                  </div>
+
+                  <article class="w-2/3 flex flex-col justify-start">
+                    <h4
+                      class="text-lg font-semibold text-gray-800 hover:text-green-700 cursor-pointer line-clamp-2"
+                    >
+                      Peningkatan Produksi Pangan Melalui Program Irigasi Cerdas
+                    </h4>
+                    <span class="text-sm text-blue-500 mt-1 block">
+                      10 Desember 2024
+                    </span>
+                    <p class="text-sm text-gray-600 mt-1 line-clamp-3">
+                      Dinas Pertanian bekerjasama dengan Balai Pengkajian
+                      Teknologi Pertanian (BPTP) telah meluncurkan program
+                      Irigasi Cerdas yang bertujuan untuk meningkatkan efisiensi
+                      penggunaan air dan hasil panen di wilayah Grobogan...
+                    </p>
+                  </article>
+                </a>
+                <a
+                  href="#"
+                  class="flex space-x-4 hover:shadow-lg border-b transition duration-300 p-4"
+                >
+                  <div class="w-1/4 overflow-hidden flex-shrink-0">
+                    <img
+                      src="https://picsum.photos/id/1015/600/400"
+                      alt="Peningkatan Produksi Pangan"
+                      class="w-full h-full object-cover transform hover:scale-105 transition duration-500"
+                    />
+                  </div>
+
+                  <article class="w-2/3 flex flex-col justify-start">
+                    <h4
+                      class="text-lg font-semibold text-gray-800 hover:text-green-700 cursor-pointer line-clamp-2"
+                    >
+                      Peningkatan Produksi Pangan Melalui Program Irigasi Cerdas
+                    </h4>
+                    <span class="text-sm text-blue-500 mt-1 block">
+                      10 Desember 2024
+                    </span>
+                    <p class="text-sm text-gray-600 mt-1 line-clamp-3">
+                      Dinas Pertanian bekerjasama dengan Balai Pengkajian
+                      Teknologi Pertanian (BPTP) telah meluncurkan program
+                      Irigasi Cerdas yang bertujuan untuk meningkatkan efisiensi
+                      penggunaan air dan hasil panen di wilayah Grobogan...
+                    </p>
+                  </article>
+                </a>
+                <a
+                  href="#"
+                  class="flex space-x-4 hover:shadow-lg border-b transition duration-300 p-4"
+                >
+                  <div class="w-1/4 overflow-hidden flex-shrink-0">
+                    <img
+                      src="https://picsum.photos/id/1015/600/400"
+                      alt="Peningkatan Produksi Pangan"
+                      class="w-full h-full object-cover transform hover:scale-105 transition duration-500"
+                    />
+                  </div>
+
+                  <article class="w-2/3 flex flex-col justify-start">
+                    <h4
+                      class="text-lg font-semibold text-gray-800 hover:text-green-700 cursor-pointer line-clamp-2"
+                    >
+                      Peningkatan Produksi Pangan Melalui Program Irigasi Cerdas
+                    </h4>
+                    <span class="text-sm text-blue-500 mt-1 block">
+                      10 Desember 2024
+                    </span>
+                    <p class="text-sm text-gray-600 mt-1 line-clamp-3">
+                      Dinas Pertanian bekerjasama dengan Balai Pengkajian
+                      Teknologi Pertanian (BPTP) telah meluncurkan program
+                      Irigasi Cerdas yang bertujuan untuk meningkatkan efisiensi
+                      penggunaan air dan hasil panen di wilayah Grobogan...
+                    </p>
+                  </article>
+                </a>
+              </div>
+              <div class="mt-6 text-right">
+                <a
+                  href="#"
+                  class="text-green-600 font-semibold hover:text-green-700 flex items-center justify-end"
+                >
+                  Lihat Semua Berita
+                  <svg
+                    class="w-4 h-4 ml-1"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M17 8l4 4m0 0l-4 4m4-4H3"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FORM PENGADUAN -->
+      <section
+        class="bg-gray-50 pengaduan py-12 md:py-16 bg-cover bg-center bg-fixed"
+      >
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2
+            class="text-center text-2xl md:text-3xl font-bold text-white mb-8"
+          >
+            Unit Pengaduan / LAPOR!
+          </h2>
+
+          <div class="bg-white md:p-8 p-4 shadow-lg border border-gray-200">
+            <form action="#" method="POST" class="md:space-y-4 space-y-2">
+              <div>
+                <input
+                  type="text"
+                  id="nama"
+                  name="nama"
+                  required
+                  class="mt-1 block w-full px-3 py-2 border border-gray-300 shadow-sm focus:ring-green-500 focus:border-green-500 sm:text-sm"
+                  placeholder="Nama Lengkap"
+                />
+              </div>
+              <div>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  class="mt-1 block w-full px-3 py-2 border border-gray-300 shadow-sm focus:ring-green-500 focus:border-green-500 sm:text-sm"
+                  placeholder="Email "
+                />
+              </div>
+              <div>
+                <input
+                  type="number"
+                  id="judul"
+                  name="judul"
+                  required
+                  class="mt-1 block w-full px-3 py-2 border border-gray-300 shadow-sm focus:ring-green-500 focus:border-green-500 sm:text-sm"
+                  placeholder="Nomor Wa / Telepon"
+                />
+              </div>
+              <div>
+                <textarea
+                  id="pengaduan"
+                  name="pengaduan"
+                  rows="4"
+                  required
+                  class="mt-1 block w-full px-3 py-2 border border-gray-300 shadow-sm focus:ring-green-500 focus:border-green-500 sm:text-sm"
+                  placeholder="Keterangan Pengaduan "
+                ></textarea>
+              </div>
+              <div class="pt-4">
+                <button
+                  type="submit"
+                  class="inline-block justify-center py-3 px-4 border border-transparent shadow-sm text-sm font-medium text-white bg-green-800 hover:bg-green-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 transition duration-300"
+                >
+                  Kirim Pengaduan / LAPOR!
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="bg-gray-50 py-12 md:py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2
+            class="text-center text-3xl font-bold md:text-4xl text-gray-500 mb-12"
+          >
+            Hubungi Kami
+          </h2>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="md:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div
+                class="bg-white p-6 shadow-md border border-gray-100 flex flex-col items-start space-y-3"
+              >
+                <div class="text-blue-600 flex-shrink-0">
+                  <svg
+                    class="w-10 h-10"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                    ></path>
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                    ></path>
+                  </svg>
+                </div>
+                <div>
+                  <p class="text-sm font-semibold uppercase text-gray-500">
+                    Alamat
+                  </p>
+                  <p class="mt-1 text-gray-700 text-sm">
+                    Jalan Raya Soreang KM 17, Pamekaran, Soreang, Pamekaran,
+                    Kec. Soreang, Kabupaten Bandung, Jawa Barat 40911
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="bg-white p-6 shadow-md border border-gray-100 flex flex-col items-start space-y-3"
+              >
+                <div class="text-blue-600 flex-shrink-0">
+                  <svg
+                    class="w-10 h-10"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                    ></path>
+                  </svg>
+                </div>
+                <div>
+                  <p class="text-sm font-semibold uppercase text-gray-500">
+                    Whatsapp/Telp
+                  </p>
+                  <p class="mt-1 text-gray-700 text-sm">
+                    6282138822611<br />6222
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="bg-white p-6 shadow-md border border-gray-100 flex flex-col items-start space-y-3"
+              >
+                <div class="text-blue-600 flex-shrink-0">
+                  <svg
+                    class="w-10 h-10"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    ></path>
+                  </svg>
+                </div>
+                <div>
+                  <p class="text-sm font-semibold uppercase text-gray-500">
+                    Email
+                  </p>
+                  <p class="mt-1 text-gray-700 text-sm">
+                    distan@bandungkab.go.id
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="bg-white p-6 shadow-md border border-gray-100 flex flex-col items-start space-y-3"
+              >
+                <div class="text-blue-600 flex-shrink-0">
+                  <svg
+                    class="w-10 h-10"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                    ></path>
+                  </svg>
+                </div>
+                <div>
+                  <p class="text-sm font-semibold uppercase text-gray-500">
+                    Jam Operasional
+                  </p>
+                  <p class="mt-1 text-gray-700 text-sm">
+                    Senin - Jumat: 08:00 - 16:00
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="md:col-span-1 bg-white shadow-xl overflow-hidden h-[400px]"
+            >
+              <iframe
+                src="https://maps.google.com/maps?q=dinas+pertanian+grobogan&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                width="100%"
+                height="100%"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="bg-primary-dark text-white pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+              <div class="text-2xl font-bold">
+                <h3 class="">Dinas Pertanian</h3>
+                <h3 class="">Kabupaten Grobogan</h3>
+              </div>
+              <div class="text-gray-300 text-sm mt-3">
+                <p>Jl P Diponegoro No 20 Purwodadi</p>
+                <p>Kec. Purwodadi, Kag. Grobogan, Jawa Tengah, 5114</p>
+              </div>
+
+              <div class="mt-6">
+                <div class="">
+                  <p class="text-gray-300">Telp : (021) 1234 5678</p>
+                </div>
+                <div class="">
+                  <p class="text-gray-300">Email : info@pertanianmaju.go.id</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex flex-col">
+              <h4 class="text-lg font-semibold mb-3">Ikuti Kami</h4>
+              <div class="flex space-x-4">
+                <a
+                  href="#"
+                  class="text-gray-300 hover:text-green-400 transition duration-300 border bg-white rounded-lg"
+                >
+                  <svg
+                    class="w-9 h-9 text-green-900"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.77-1.63 1.563V12h2.77l-.44 2.89h-2.33v6.987C18.343 21.128 22 16.991 22 12z"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href="#"
+                  class="text-gray-300 hover:text-green-400 transition duration-300 border bg-white rounded-lg"
+                >
+                  <svg
+                    class="w-9 h-9 text-green-900"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.77-1.63 1.563V12h2.77l-.44 2.89h-2.33v6.987C18.343 21.128 22 16.991 22 12z"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href="#"
+                  class="text-gray-300 hover:text-green-400 transition duration-300 border bg-white rounded-lg"
+                >
+                  <svg
+                    class="w-9 h-9 text-green-900"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.77-1.63 1.563V12h2.77l-.44 2.89h-2.33v6.987C18.343 21.128 22 16.991 22 12z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-8 pt-4 border-t border-gray-700 text-center">
+            <p class="text-sm text-gray-400">
+              &copy; 2025 Dinas Pertanian Kab.Grobogan. Hak Cipta Dilindungi.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
